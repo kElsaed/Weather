@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "872b3d38-d6ea-48e5-9800-9c70ec50644f",
+		"name": "Weather_API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38395665"
+	},
+	"item": [
+		{
+			"name": "weather",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/weather?city_name=Cairo",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"weather"
+					],
+					"query": [
+						{
+							"key": "city_name",
+							"value": "Cairo"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
