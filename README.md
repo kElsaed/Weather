@@ -1,9 +1,8 @@
-# Weather Api
+# Weather Api Update
 
 ## Overview
-### The API Priovide 
-- Temperature In kelvin 
-- Temperature In Celsius
+### The API Priovide  
+- Json Format with city , lon , lat , weather_descriptions and temperature
 
 
 ## Documentation
@@ -11,10 +10,7 @@
 
 
 ## Requirements To Use
-- python
-- fastapi
-- pydantic
-- uvicorn
+- Sea requirement.txt
 
 
 ## How To Use 
